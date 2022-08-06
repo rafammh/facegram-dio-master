@@ -4,33 +4,32 @@ Clone do Instagram
 
 ## 📌 Sobre este Projeto
 
-Website facegram foi um projeto desenvolvido no curso Recriando a página inicial do Instagram da Digital Innovation One, utilizando em HTML, CSS, JS.
+Website facegram foi um projeto desenvolvido no curso Recriando a página inicial do Instagram da Digital Innovation One, utilizando em HTML e CSS.
 
 ## 💡 Por quê?
 
 Este projeto faz parte do meu portfólio pessoal, então, ficarei feliz se você puder me fornecer algum feedback sobre o projeto, código, estrutura ou qualquer coisa que você possa relatar que possa me tornar um desenvolvedor melhor!
 
-Email: gustavo-mmello@hotmail.com
+Email: rafammh93@gmail.com
 
-Conecte-se comigo em [LinkedIn](https://www.linkedin.com/in/gustavo-m-mello/)
+Conecte-se comigo em [LinkedIn](https://www.linkedin.com/in/rafael-m-mello/)
 
 ## 🖥️ Tecnologias
 
 - HTML5
 - CSS3
-- Javascript
 
 ## 🌎 Ver Site Funcionando
 
-[Ver site](https://gustavo-mmh.github.io/facegram-dio/)
+[Ver site](https://rafael-mmh.github.io/facegram-dio-master/)
 
 ## ⚠️ Instalando -Website de Portfólio Pessoal-
 
-Para Clonar o repositório de _facegram-dio_, faça:
+Para Clonar o repositório de _facegram-dio-master_, faça:
 
 ```
-$ git clone https://github.com/gustavo-mmh/facegram-dio.git
+$ git clone https://github.com/rafael-mmh/facegram-dio-master.git
 
-$ cd facegram-dio
+$ cd facegram-dio-master
 
 ```
