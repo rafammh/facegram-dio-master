@@ -1,0 +1,205 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-size: 14px;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  background-size: 400% 400%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(236 240 252);
+  position: relative;
+}
+
+.facegram-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  width: 60%;
+  height: 100vh;
+}
+
+.facegram-phone {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+}
+
+.troca-imagem {
+  animation: changeBackgroundImage 30s infinite;
+  height: 50rem;
+
+  width: 100%;
+}
+
+.facegram-continue {
+  display: flex;
+  align-items: center; /* horizontal */
+  justify-content: space-around; /* vertical */
+  flex-direction: column;
+  width: 50%;
+  min-height: 34rem;
+}
+
+.group {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  background-color: #ffffffff;
+  width: 100%;
+  padding: 1.3rem 0;
+  border: 1px solid lightgray;
+  border-radius: 1.5rem;
+}
+
+.group:nth-child(1) {
+  min-height: 19rem;
+}
+
+.facegram-logo {
+  height: 3rem;
+}
+
+.profile-photo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.profile-photo img {
+  height: 6rem;
+}
+
+.facegram-login {
+  background-color: #3b5998;
+  color: #ffffff;
+  padding: 8px;
+  border-radius: 4px;
+}
+
+.facegram-logout {
+  color: #f60000;
+  margin-top: 1rem;
+}
+
+.not-account {
+  color: rgb(0 0 0);
+}
+
+.link-blue {
+  color: #011da5;
+}
+
+.get-the-app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 1.3rem 0;
+}
+
+.download {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 1rem;
+}
+
+.app-download {
+  height: 3rem;
+  width: 10rem;
+  background-size: cover;
+}
+
+.app-download:nth-child(1) {
+  background-image: url("../img/apple-button.png");
+}
+
+.app-download:nth-child(2) {
+  background-image: url("../img/googleplay-button.png");
+}
+
+/* media queries */
+
+@media (max-width: 1140px) {
+  .facegram-wrapper {
+    width: 95%;
+  }
+}
+
+@media (max-width: 715px) {
+  body {
+    background-color: #ffffff;
+  }
+
+  .facegram-wrapper {
+    width: 90%;
+  }
+
+  .facegram-phone {
+    display: none;
+  }
+
+  .facegram-continue {
+    width: 100%;
+  }
+
+  .group {
+    border: 1px solid transparent;
+  }
+}
+
+/* @keyframes  */
+@keyframes backgroundTransition {
+  0% {
+    background-position: 0% 80%;
+  }
+  50% {
+    background-position: 80% 100%;
+  }
+  100% {
+    background-position: 0% 90%;
+  }
+}
+
+@keyframes changeBackgroundImage {
+  0% {
+    background-image: url("../img/facegram-phone-1.png");
+    background-position: center;
+    background-size: cover;
+  }
+  25% {
+    background-image: url("../img/facegram-phone-2.png");
+    background-position: center;
+    background-size: cover;
+  }
+  50% {
+    background-image: url("../img/facegram-phone-3.png");
+    background-position: center;
+    background-size: cover;
+  }
+  75% {
+    background-image: url("../img/facegram-phone-4.png");
+    background-position: center;
+    background-size: cover;
+  }
+  100% {
+    background-image: url("../img/facegram-phone-1.png");
+    background-position: center;
+    background-size: cover;
+  }
+}
